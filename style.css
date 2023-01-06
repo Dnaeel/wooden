@@ -11,6 +11,15 @@ body{
 	padding-bottom: 36px;
 }
 
+.menu-burger{
+	width: 30px;
+	height: 50px;
+}
+
+.menu-burger:hover{
+   cursor: pointer;
+}
+
 .menu{
 	display: flex;
 	align-items: center;
@@ -132,7 +141,7 @@ body{
 
 }
 
-.cloe img{
+.cloe1{
 	width: 850px;
 	height: 542px;
 }
@@ -180,7 +189,7 @@ p{
 	font-size: 16px;
 	line-height: 27px;
 	color: #54595F;	
-	height: 70px;
+	height: 30px;
 }
 
 .other + a{
@@ -188,7 +197,7 @@ p{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .decoration{
@@ -228,7 +237,7 @@ p{
 	padding-left: 50px;
 }
 
-.alada img{
+.alada1{
 	width: 850px;
 	height: 542px;
 }
@@ -278,7 +287,7 @@ p{
 	align-items: flex-end;
 	padding-left: 50px;
 }
-.batea img{
+.batea1{
 	width: 850px;
 	height: 542px;
 }
@@ -536,19 +545,20 @@ footer .block-end{
 	gap: 20px;
 }
 
-@media only screen and (max-width: 1450px){
+@media only screen and (max-width: 1349px){
 	.cloe2{
     display: none;
 	}
-	.cloe a{
-		color: red;
-	}
 }
 @media only screen and (max-width: 1200px){
+	.menu-burger{
+		display: none;
+	}
+	
 	.interior img{
 		width: 250px;
 	}
-	.cloe img {
+	.cloe1{
 		width: 550px;
 		height: 442px;
 	}
@@ -562,7 +572,7 @@ footer .block-end{
 	.pelican .column{
 		padding: 5px;
 	}
-	.alada img {
+	.alada1{
 		width: 550px;
 		height: 442px;
 	}
@@ -581,7 +591,7 @@ footer .block-end{
 	.alba .column > p{
 		margin: 5px;
     }
-	.batea img {
+	.batea1{
 		width: 550px;
 	}
 	.batea .column {
@@ -601,9 +611,22 @@ footer .block-end{
 	.cloe2{
 		display: none;
 	}
+	.alada2{
+		display: none;
+	}
+	.batea2{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 768px){
+	.header ul{
+		display: none;
+	}
+.menu-burger{
+	display: block;
+}
+
 	.icon img{
 		display: none;
 	}
@@ -611,22 +634,88 @@ footer .block-end{
 		margin-left: 20px;
 	}
 	.interior img{
-     width: 120px;
+     width: 121px;
 	}
 
 	.cloe .cloe1{
 		display: none;
 	}
     .cloe2{
-		position: relative;
 		display: block;
-		width: 100px;
+		width: 485px;
+		height: 450px;
 	}
     .cloe .column{
 		position: absolute;
 		color: #FFFFFF;
 	}
-
+    .cloe a, .price + p{
+		color: #FFFFFF;
+	}
+    .pelican img{
+		width: 485px;
+		height: 450px;
+	}
+	.pelican .column{
+		position: absolute;
+		color: #FFFFFF;
+    }
+    .pelican .other, .other + a{
+		color: #FFFFFF;
+	} 
+	.alada1{
+		display: none;
+	}
+	.alada2{
+		display: block;
+		width: 485px;
+		height: 450px;
+	}
+	.alada .column{
+		position: absolute;
+		color: #FFFFFF;
+    }
+	.alada .other, .other + a{
+		color: #FFFFFF;
+	}
+	.alba img{
+		width: 485px;
+		height: 450px;
+	}
+	.alba .column{
+		position: absolute;
+		color: #FFFFFF;
+    }
+    .alba .other, .other + a{
+		color: #FFFFFF;
+	} 
+	.batea1{
+		display: none;
+	}
+	.batea2{
+		display: block;
+		width: 485px;
+		height: 450px;
+	}
+	.batea .column{
+		position: absolute;
+		color: #FFFFFF;
+    }
+	.batea .other, .other + a{
+		color: #FFFFFF;
+	}
+	.space-between img{
+		width: 160px;
+	}
+	.about-product img{
+		width: 90px;
+	}
+	.who-advertises img{
+		width: 496px;
+	}
+	footer .news{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 480px){
