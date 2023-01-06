@@ -534,7 +534,17 @@ footer .end p{
 footer .block-end{
 	display: flex;
 	gap: 20px;
-}@media only screen and (max-width: 1200px){
+}
+
+@media only screen and (max-width: 1450px){
+	.cloe2{
+    display: none;
+	}
+	.cloe a{
+		color: red;
+	}
+}
+@media only screen and (max-width: 1200px){
 	.interior img{
 		width: 250px;
 	}
@@ -588,4 +598,41 @@ footer .block-end{
     .who-advertises img{
 		width: 1000px;
 	}
+	.cloe2{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.icon img{
+		display: none;
+	}
+	.icon a{
+		margin-left: 20px;
+	}
+	.interior img{
+     width: 120px;
+	}
+
+	.cloe .cloe1{
+		display: none;
+	}
+    .cloe2{
+		position: relative;
+		display: block;
+		width: 100px;
+	}
+    .cloe .column{
+		position: absolute;
+		color: #FFFFFF;
+	}
+
+}
+
+@media only screen and (max-width: 480px){
+
+}
+
+@media only screen and (max-width: 320px){
+
 }
