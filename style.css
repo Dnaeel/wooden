@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	background: #F6F6F6;
+	max-width: 100%;
 }
 
 .header{
@@ -106,7 +107,10 @@ body{
 
 .interior{
 	display: flex;
-	height: 299.89px;
+}
+
+.interior img{
+	width: 337px;
 }
 
 .shelf{
@@ -381,7 +385,7 @@ p{
 
 .about-product .design{
 	background-color: white;
-	padding: 0 30px;
+	padding: 0 0px;
 	width: 269px; 
 }
 
@@ -428,7 +432,7 @@ p{
 .about-product .design-2{
 	background-color: #F6F6F6;
 	width: 269px;
-	padding: 0 30px;
+	padding: 0 ;
 }
 
 .design-2 img{
@@ -530,4 +534,58 @@ footer .end p{
 footer .block-end{
 	display: flex;
 	gap: 20px;
+}@media only screen and (max-width: 1200px){
+	.interior img{
+		width: 250px;
+	}
+	.cloe img {
+		width: 550px;
+		height: 442px;
+	}
+	.cloe .column {
+		padding: 5px;
+	}
+	.pelican img {
+		width: 550px;
+		height: 442px;
+	}
+	.pelican .column{
+		padding: 5px;
+	}
+	.alada img {
+		width: 550px;
+		height: 442px;
+	}
+	.alada .column {
+		padding: 5px;
+	}
+	.alada .column > p{
+     margin: 5px;
+	}
+	.alba img {
+		width: 550px;
+	}
+	.alba .column {
+		padding: 5px;
+	}
+	.alba .column > p{
+		margin: 5px;
+    }
+	.batea img {
+		width: 550px;
+	}
+	.batea .column {
+		padding: 5px;
+	}
+	.space-between img{
+		width: 250px;
+	}
+	.about-product img{
+		width: 210px;
+		margin-left: 10px;
+	}
+	
+    .who-advertises img{
+		width: 1000px;
+	}
 }
