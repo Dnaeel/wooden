@@ -10,31 +10,6 @@ body{
 	padding-bottom: 36px;
 }
 
-.menu-burger{
-	display: none;
-}
-
-.cloe2{
-	display: none;
-}
-
-.alada2{
-	display: none;
-}
-
-.batea2{
-	display: none;
-}
-
-.menu-burger{
-	width: 30px;
-	height: 50px;
-}
-
-.menu-burger:hover{
-   cursor: pointer;
-}
-
 .menu{
 	display: flex;
 	align-items: center;
@@ -92,6 +67,10 @@ body{
 	color: #FFFFFF;
 }
 
+.main-block__btn:hover{
+	cursor: pointer;
+}
+
 .main-block__widget{
 	background-color: #050505;
 	position: absolute;
@@ -134,7 +113,7 @@ body{
 }
 
 .interior img{
-	width: 337px;
+	width: 24.9%;
 }
 
 .shelf{
@@ -144,7 +123,6 @@ body{
 .cloe{
 	height: 600px;
 	display: flex;
-	justify-content: space-between;
 	padding-top: 105px;
 }
 
@@ -152,11 +130,13 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	padding-left: 50px;
+	margin-left: 80px;
 
 }
 
 .cloe1{
+	position: absolute;
+	right: 0;
 	width: 850px;
 	height: 542px;
 }
@@ -227,7 +207,7 @@ p{
 .pelican .column{
 	display: flex;
 	flex-direction: column;
-	padding-right: 50px;
+	padding-right: 80px;
 }
 
 .pelican img{
@@ -249,7 +229,7 @@ p{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	padding-left: 50px;
+	padding-left: 80px;
 }
 
 .alada1{
@@ -267,7 +247,7 @@ p{
 }
 
 .things-bed{
-	height: 	600px;
+	height: 600px;
 }
 
 .alba{
@@ -279,7 +259,7 @@ p{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding-right: 50px;
+	padding-right: 80px;
 }
 
 .alba img{
@@ -300,7 +280,7 @@ p{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	padding-left: 50px;
+	padding-left: 80px;
 }
 .batea1{
 	width: 850px;
@@ -310,12 +290,12 @@ p{
 .space-between{
 	display: flex;
 	justify-content: space-around;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .space-between img{
-	width: 450px;
+	width: 400px;
 }
 
 .our-pieces h3{
@@ -399,7 +379,7 @@ p{
 	width: 3px;
 }
 
-.about-product{
+.about-product{	
 	display: flex;
 	padding-top: 100px;
 	justify-content: space-around;
@@ -465,7 +445,7 @@ p{
 
 .design-2 img{
 	height: 95px;
-	width: 270px;
+	width: 250px;
 }
 
 .who-advertises{
@@ -484,7 +464,7 @@ p{
 }
 
 .who-advertises img{
-    width: 1340px;
+    max-width: 100%;
 	height: 104px;
 }
 
@@ -562,246 +542,4 @@ footer .end p{
 footer .block-end{
 	display: flex;
 	gap: 20px;
-}
-
-@media only screen and (max-width: 1349px){
-	.cloe2{
-    display: none;
-	}
-}
-@media only screen and (max-width: 1200px){
-	.menu-burger{
-		display: none;
-	}
-	
-	.interior img{
-		max-width: 25%;
-	}
-	.cloe1{
-		max-width: 45%;
-		height: 442px;
-	}
-	.cloe .column {
-		padding: 5px;
-	}
-	
-	.pelican img {
-		max-width: 45%;
-		height: 442px;
-	}
-	.pelican .column{
-		padding: 5px;
-	}
-	.alada1{
-		max-width: 45%;
-		height: 442px;
-	}
-	.alada .column {
-		padding: 5px;
-	}
-	.alada .column > p{
-     margin: 5px;
-	}
-	.alba img {
-		max-width: 45%;
-	}
-	.alba .column {
-		padding: 5px;
-	}
-	.alba .column > p{
-		margin: 5px;
-    }
-	.batea1{
-		max-width: 45%;
-	}
-	.batea .column {
-		padding: 5px;
-	}
-	.space-between img{
-		max-width: 45%;
-	}
-	.about-product img{
-		max-width: 100%;
-		margin-left: 10px;
-	}
-	
-    .who-advertises img{
-		max-width: 100%;
-	}
-	.cloe2{
-		display: none;
-	}
-	.alada2{
-		display: none;
-	}
-	.batea2{
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 768px){
-	.header ul{
-		display: none;
-	}
-.menu-burger{
-	display: block;
-}
-
-	.icon img{
-		display: none;
-	}
-	.icon a{
-		margin-left: 20px;
-	}
-	.interior img{
-		max-width: 25%;
-	}
-
-	.cloe .cloe1{
-		display: none;
-	}
-    .cloe2{
-		display: block;
-		max-width: 100%;
-		height: 450px;
-	}
-    .cloe .column{
-		position: absolute;
-		color: #FFFFFF;
-	}
-    .cloe a, .price + p{
-		color: #FFFFFF;
-	}
-    .pelican img{
-		max-width: 100%;
-		height: 450px;
-	}
-	.pelican .column{
-		position: absolute;
-		color: #FFFFFF;
-    }
-    .pelican .other, .other + a{
-		color: #FFFFFF;
-	} 
-	.alada1{
-		display: none;
-	}
-	.alada2{
-		display: block;
-		max-width: 100%;
-		height: 450px;
-	}
-	.alada .column{
-		position: absolute;
-		color: #FFFFFF;
-    }
-	.alada .other, .other + a{
-		color: #FFFFFF;
-	}
-	.alba img{
-		max-width: 100%;
-		height: 450px;
-	}
-	.alba .column{
-		position: absolute;
-		color: #FFFFFF;
-    }
-    .alba .other, .other + a{
-		color: #FFFFFF;
-	} 
-	.batea1{
-		display: none;
-	}
-	.batea2{
-		display: block;
-		max-width: 100%;
-		height: 450px;
-	}
-	.batea .column{
-		position: absolute;
-		color: #FFFFFF;
-    }
-	.batea .other, .other + a{
-		color: #FFFFFF;
-	}
-	.space-between img{
-		max-width: 50%;
-	}
-	.about-product img{
-		max-width: 100%;
-	}
-	.who-advertises img{
-		max-width: 100%;
-	}
-	footer .news{
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 480px){
-	.main-block__widget{
-		width: 150px;
-		height: 50px;
-		left: 0;
-	}
-	
-.about-us{
-	max-width: 78%;
-}
-.interior img {
-    max-width: 25%;
-}
- .cloe2{
-	max-width: 100%;
- }
- .cloe .price + p {
-    display: none;
-}
-.cloe .column{
-	right: 0;
-}
-.pelican img{
-	max-width: 100%;
-}
-.pelican .price + p {
-    display: none;
-}
-.alada2{
-	max-width: 100%;
- }
- .alada .price + p {
-    display: none;
-}
-.alada .column{
-	right: 0;
-}
-.alba img{
-	max-width: 100%;
-}
-.alba .price + p {
-    display: none;
-}
-.batea2{
-	max-width: 100%;
- }
- .batea .price + p {
-    display: none;
-}
-.batea .column{
-	right: 0;
-}
-.space-between img {
-    max-width: 108px;
-}
-.design, .design-2{
-	display: none;
-}
-.block-svg img{
-	display: none;
-}
-				
-}
-
-@media only screen and (max-width: 320px){
-
 }
