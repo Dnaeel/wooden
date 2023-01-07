@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	background: #F6F6F6;
-	max-width: 100%;
 }
 
 .header{
@@ -9,6 +8,22 @@ body{
 	border-bottom: 1px solid #F2F2F2;
 	background-color: #ffffff;
 	padding-bottom: 36px;
+}
+
+.menu-burger{
+	display: none;
+}
+
+.cloe2{
+	display: none;
+}
+
+.alada2{
+	display: none;
+}
+
+.batea2{
+	display: none;
 }
 
 .menu-burger{
@@ -119,7 +134,7 @@ body{
 }
 
 .interior img{
-	width: 337px;
+	width: 427px;
 }
 
 .shelf{
@@ -142,7 +157,7 @@ body{
 }
 
 .cloe1{
-	width: 850px;
+	width: 1200px;
 	height: 542px;
 }
 
@@ -216,7 +231,7 @@ p{
 }
 
 .pelican img{
-	width: 840px;
+	width: 1200px;
 	height: 542px;
 }
 
@@ -238,7 +253,7 @@ p{
 }
 
 .alada1{
-	width: 850px;
+	width: 1200px;
 	height: 542px;
 }
 
@@ -268,7 +283,7 @@ p{
 }
 
 .alba img{
-	width: 850px;
+	width: 1200px;
 	height: 542px;
 }
 
@@ -288,7 +303,7 @@ p{
 	padding-left: 50px;
 }
 .batea1{
-	width: 850px;
+	width: 1200px;
 	height: 542px;
 }
 
@@ -297,6 +312,10 @@ p{
 	justify-content: space-around;
 	padding-left: 100px;
 	padding-right: 100px;
+}
+
+.space-between img{
+	width: 450px;
 }
 
 .our-pieces h3{
@@ -465,7 +484,7 @@ p{
 }
 
 .who-advertises img{
-	width: 1340px;
+    width: 1650px;
 	height: 104px;
 }
 
@@ -556,24 +575,25 @@ footer .block-end{
 	}
 	
 	.interior img{
-		width: 250px;
+		max-width: 25%;
 	}
 	.cloe1{
-		width: 550px;
+		max-width: 45%;
 		height: 442px;
 	}
 	.cloe .column {
 		padding: 5px;
 	}
+	
 	.pelican img {
-		width: 550px;
+		max-width: 45%;
 		height: 442px;
 	}
 	.pelican .column{
 		padding: 5px;
 	}
 	.alada1{
-		width: 550px;
+		max-width: 45%;
 		height: 442px;
 	}
 	.alada .column {
@@ -583,7 +603,7 @@ footer .block-end{
      margin: 5px;
 	}
 	.alba img {
-		width: 550px;
+		max-width: 45%;
 	}
 	.alba .column {
 		padding: 5px;
@@ -592,21 +612,21 @@ footer .block-end{
 		margin: 5px;
     }
 	.batea1{
-		width: 550px;
+		max-width: 45%;
 	}
 	.batea .column {
 		padding: 5px;
 	}
 	.space-between img{
-		width: 250px;
+		max-width: 45%;
 	}
 	.about-product img{
-		width: 210px;
+		max-width: 100%;
 		margin-left: 10px;
 	}
 	
     .who-advertises img{
-		width: 1000px;
+		max-width: 100%;
 	}
 	.cloe2{
 		display: none;
@@ -634,7 +654,7 @@ footer .block-end{
 		margin-left: 20px;
 	}
 	.interior img{
-     width: 121px;
+		max-width: 25%;
 	}
 
 	.cloe .cloe1{
@@ -642,7 +662,7 @@ footer .block-end{
 	}
     .cloe2{
 		display: block;
-		width: 485px;
+		max-width: 100%;
 		height: 450px;
 	}
     .cloe .column{
@@ -653,7 +673,7 @@ footer .block-end{
 		color: #FFFFFF;
 	}
     .pelican img{
-		width: 485px;
+		max-width: 100%;
 		height: 450px;
 	}
 	.pelican .column{
@@ -668,7 +688,7 @@ footer .block-end{
 	}
 	.alada2{
 		display: block;
-		width: 485px;
+		max-width: 100%;
 		height: 450px;
 	}
 	.alada .column{
@@ -679,7 +699,7 @@ footer .block-end{
 		color: #FFFFFF;
 	}
 	.alba img{
-		width: 485px;
+		max-width: 100%;
 		height: 450px;
 	}
 	.alba .column{
@@ -694,7 +714,7 @@ footer .block-end{
 	}
 	.batea2{
 		display: block;
-		width: 485px;
+		max-width: 100%;
 		height: 450px;
 	}
 	.batea .column{
@@ -705,13 +725,13 @@ footer .block-end{
 		color: #FFFFFF;
 	}
 	.space-between img{
-		width: 160px;
+		max-width: 50%;
 	}
 	.about-product img{
-		width: 90px;
+		max-width: 100%;
 	}
 	.who-advertises img{
-		width: 496px;
+		max-width: 100%;
 	}
 	footer .news{
 		display: none;
@@ -719,7 +739,70 @@ footer .block-end{
 }
 
 @media only screen and (max-width: 480px){
-
+	.main-block__widget{
+		width: 150px;
+		height: 50px;
+		left: 0;
+	}
+	
+.about-us{
+	max-width: 78%;
+}
+.interior img {
+    max-width: 25%;
+}
+ .cloe2{
+	max-width: 100%;
+ }
+ .cloe .price + p {
+    display: none;
+}
+.cloe .column{
+	right: 0;
+}
+.pelican img{
+	max-width: 100%;
+}
+.pelican .price + p {
+    display: none;
+}
+.alada2{
+	max-width: 100%;
+ }
+ .alada .price + p {
+    display: none;
+}
+.alada .column{
+	right: 0;
+}
+.alba img{
+	max-width: 100%;
+}
+.alba .price + p {
+    display: none;
+}
+.batea2{
+	max-width: 100%;
+ }
+ .batea .price + p {
+    display: none;
+}
+.batea .column{
+	right: 0;
+}
+.space-between img {
+    max-width: 108px;
+}
+.design, .design-2{
+	display: none;
+}
+.who-advertises img {
+    max-width: 326px;
+}
+.block-svg img{
+	display: none;
+}
+				
 }
 
 @media only screen and (max-width: 320px){
